@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(#32a8a2 0% ,#4f8df0 100% );
+}
+h1{
+    font-family: monospace;
+    color: antiquewhite;
+}
+#show_sketch{
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.modal-title{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+canvas{
+    margin-top: 35px;
+    border-radius: 30px;
+    border: rgb(157, 207, 250) 5px solid;
+    animation-name: anime;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    from{box-shadow: 5px 5px 70px #f5b8dd;}
+    to{box-shadow: 5px 5px 70px #c46bed;}
+}
